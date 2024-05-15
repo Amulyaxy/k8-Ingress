@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app1
-        image: Amulya11/app1:v1
+        image: amulya11/app1:v1
         imagePullPolicy: Always
         resources:
           requests:
@@ -50,7 +50,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: "app1.joindevops.website"
+  - host: "app1.awsdevops.website"
     http:
       paths:
       - pathType: Prefix
